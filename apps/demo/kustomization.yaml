@@ -15,4 +15,4 @@ resources:
 images:
   - name: docker/io/LeeYeongHun/demo
     newName: docker.io/LeeYeonghun/demo
-    newTag: PLACEHOLDER
+    newTag: edd165a
