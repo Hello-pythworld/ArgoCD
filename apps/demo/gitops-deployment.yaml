@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-container
-          image: leeyeonghun/demo:latest
+          image: leeyeonghun/demo:edd165a
           ports:
             - containerPort: 8080
           envFrom:
