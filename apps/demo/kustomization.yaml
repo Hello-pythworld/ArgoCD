@@ -9,7 +9,7 @@ resources:
   - gitops-configmap.yaml
   - gitops-mysql-deployment.yaml
   - gitops-mysql-service.yaml
-  - gitops-mysql-deployment.yaml
+  - gitops-deployment.yaml
   - gitops-service.yaml
 
 images:
