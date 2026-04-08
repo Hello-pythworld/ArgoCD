@@ -17,6 +17,7 @@ spec:
         - name: demo-container
           image: docker.io/LeeYeongHun/demo:PLACEHOLDER
           ports:
+            - port: 3306
             - containerPort: 8080
           envFrom:
             - configMapRef:
