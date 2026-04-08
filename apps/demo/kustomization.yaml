@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8a.io/v1beta1
+kind: Kustomization
+
+namespace: demo # 모든 리소스에 demo 네임스페이스 적용
+
+# demo 네임 스페이스에 포함시킬 목록
+resources:
+  - gitops-namespace.yaml
+  - gitops-configmap.yaml
+  - gitops-mysql-deployment.yaml
+  - gitops-mysql-service.yaml
+  - gitops-mysql-deployment.yaml
+  - gitops-service.yaml
+
+images:
+  - name: docker/io/LeeYeongHun/demo
+    newName: docker.io/LeeYeonghun/demo
+    newTag: PLACEHOLDER
